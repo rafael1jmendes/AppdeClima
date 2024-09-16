@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aplicativo de Previsao do tempo</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <video class="video" autoplay muted loop>
+            <source id="video-souce" src="/video/video1.mp4" type="video/mp4">
+        </video>
+
+        <div class="box">
+            <div class="search">
+                <button>
+                    <img src="./assets/Search.png" alt="icone-lupa">
+
+                </button>
+                <input id="input busca" placeholder="Coloque o nome da cidade" type="text">
+            </div>
+
+
+            <div class="box_midia">
+                <div class="clima">
+                    <img class="icon-temp" src="./assets/01d.png" alt="icone tempo">
+                    <h2 class="name-city">PARIS</h2>
+                    <h3 class="temp-city">22*C</h3>
+
+                    <div class="variacao">
+                        <p class="maxtemp">max:23*C</p>
+                        <p class="maxtemp">min:21*C</p>
+                    </div>
+                </div>
+
+                <div class="music">
+                    <img class="icon-music" src=".//assets/Musica.png" alt="music-icon">
+                    <h2>Playlist</h2>
+                    <ul class="playlist-box">
+                        <li>
+                            <img src="./assets/Dalylift.png" alt="spotify-icon">
+                            <p>Daily Lift</p>
+                        </li>
+                        <li>
+                            <img src="./assets/Dalylift.png" alt="spotify-icon">
+                            <p>Daily Lift</p>
+                        </li>
+                        <li>
+                            <img src="./assets/Dalylift.png" alt="spotify-icon">
+                            <p>Daily Lift</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
